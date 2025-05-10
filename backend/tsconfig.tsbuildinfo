@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/constants/interfaces.ts","./src/controllers/user.controller.ts","./src/database/db.ts","./src/middlewares/authmiddleware.ts","./src/models/user.schema.ts","./src/routes/user.routes.ts","./src/utils/generatetoken.ts","./src/utils/mailsender.ts","./src/validations/validationmiddleware.ts"],"version":"5.8.2"}

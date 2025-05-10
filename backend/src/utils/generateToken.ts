@@ -18,6 +18,10 @@ const generateToken = (user: any, res: Response, msg: string) => {
       success: true,
       message: msg,
       token,
+      userInfo: {
+        name: `${user.firstName} ${user.lastName}`,
+        email: user.email,
+      },
     });
 };
 

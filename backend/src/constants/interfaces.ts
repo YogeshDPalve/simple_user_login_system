@@ -1,7 +1,13 @@
 import { Request } from "express";
 
-interface AuthRequest extends Request {
+export interface AuthRequest extends Request {
   id?: string;
 }
-
-export { AuthRequest };
+export interface IUser extends Document {
+  firstName: string;
+  lastName: string;
+  email: string;
+  emailOtp?: string;
+  emailOtpExpiresAt?: Date;
+  password: string;
+}
